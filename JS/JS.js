@@ -22,7 +22,7 @@ function Chien(event){
     console.log(l);
 
     let posiX = event.pageX || event.changedTouches[0].pageX;
-    this.innerText += "heyyy";
+    this.innerText += posiX;
     console.log(posiX)
 }
 
